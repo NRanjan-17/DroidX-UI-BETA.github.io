@@ -6,6 +6,8 @@
 body{
   background-color: #0B0B0B !important;
 }
+
+
 .thenextera {
   color: rgba(185, 182, 182, 0.5);
   font-size: 10svw;
@@ -76,7 +78,38 @@ a {
 
 @media only screen and (max-width: 515px) {
   /* Adjust styles for phones */
-
+  .page1{
+    background-image: url("./sm1.svg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .page2{
+    background-image: url("./sm2.svg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .page3{
+    background-image: url("./sm3.svg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .btn1-sm{
+    text-align: center;
+      position: relative;
+      top: 52vh;
+  }
+  .sm-text{
+    position: relative;
+      top: 24vh;
+      text-align: center;
+      font-size: 5vh;
+  }
  .gap-3{
   position: relative;
     bottom: 200px;
@@ -93,6 +126,7 @@ a {
 .navbar>.container{
   justify-content: center !important;
 }
+
 .image-caption{
   bottom: 5px;
     left: 5%;
