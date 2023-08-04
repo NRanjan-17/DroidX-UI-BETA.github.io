@@ -85,14 +85,15 @@ body {
 }
 #footer {
     display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+    align-items: center;
     color: #888888;
     font-family: plusjakartasans;
     font-weight: bold;
   }
   
-  #footer p {
-    margin: 0 170px;
-}
 #subhead {
   animation: fadeIn 3s;
 }
@@ -129,11 +130,13 @@ body {
     width: auto;
     height: 30px;
   }
-  #footer p {
-    margin: 0 65px;
-}
+
 #footer {
   display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly !important;
+  align-items: center;
   color: #888888;
   font-family: plusjakartasans;
   font-weight: bold;
@@ -179,12 +182,13 @@ body {
     height: 25px;
     width: auto;
   }
-  #footer p {
-    margin: 0 10px;
-}
+
 #footer {
     display: flex;
-    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+    align-items: center;
     color: #888888;
     font-family: plusjakartasans;
     font-weight: bold;
